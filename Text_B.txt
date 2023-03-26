@@ -1,0 +1,88 @@
+﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-2-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-2-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-2-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-2-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-3_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-3_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-4-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-4-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-4-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-4-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-6-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-6-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-6-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-6-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-6-3_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-6-3_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M6-6-4_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M6-6-4_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0MD6-1-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0MD6-1-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0MD6-2-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0MD6-2-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-3-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-3-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-3-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-3-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-5-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-5-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-5-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-5-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-5-3_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-5-3_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M7-5-4_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M7-5-4_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0MD7-1-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0MD7-1-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-3-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-3-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-3-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-3-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-5-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-5-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-5-2_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-5-2_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-5-3_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-5-3_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M5-5-4_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M5-5-4_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0MD5-1-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0MD5-1-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0M9-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0M9-1_Color", 1)﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "0MD6-3-1_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "0MD6-3-1_Color", 1)

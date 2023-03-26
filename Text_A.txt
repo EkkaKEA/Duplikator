@@ -1,0 +1,4 @@
+﻿//
+GetData(status, "Siemens S7-400 (Ethernet)", "XXX_Status2", 1)
+color =  mtrstat2clr(status)
+SetData(color, "Local HMI", "XXX_Color", 1)
