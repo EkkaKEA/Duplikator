@@ -63,7 +63,7 @@ class MainWindow(QWidget):
     def generate_text_b(self):
         if not self.text_a_path or not self.table_path:
             return
-
+        self.output_button.setText('ok1')
         with open(self.text_a_path, 'r') as f:
             text_a = f.read()
 
@@ -73,10 +73,14 @@ class MainWindow(QWidget):
             for i in range(1, len(table)):
                 text_b = text_a
                 for j in range(len(table.columns)):
-                    text_b = text_b.replace(table.iloc[0, j], table.iloc[i, j])
+                    try:
+
+                        text_b = text_b.replace(str(table.iloc[0, j]), str(table.iloc[i, j]))
+                    except ValueError:
+                        print('Это не число. Выходим.' + str(table.iloc[0, j]))
                 f.write(text_b)
 
-        self.output_button.setText('Text B generated')
+
 
 
 if __name__ == '__main__':

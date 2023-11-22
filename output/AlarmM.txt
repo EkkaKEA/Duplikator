@@ -1,0 +1,8 @@
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_START"	YYY Превышено время ожид. при запуске
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_STOP"	YYY Превышено время ожид. при останове
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_UNX_START"	YYY Самопроизвольный запуск
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_UNX_STOP"	YYY Самопроизвольный останов
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_QUAL"	YYY Потеря качества сигналов
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_VSD_FAULT"	YYY Авария ЧРП
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_SIGNAL"	YYY Неверное сочетание сигналов
+"PLC_CEH.Blocks.""MOTOR (моторы)"".MOTOR.Item[XXX].FLT_CONFIG"	YYY Ошибка конфигурации
