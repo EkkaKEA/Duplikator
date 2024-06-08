@@ -56,16 +56,21 @@ class MainWindow(QWidget):
     def load_table(self):
         try:
             file_dialog = QFileDialog(self)
-            file_dialog.setNameFilter('Excel files (*.xls*)')
-            file_dialog.selectNameFilter('Excel files (*.xls*)')
+            file_dialog.setNameFilter('Excel files (*.xls*);;Excel files (*.xlsx)')
+            file_dialog.selectNameFilter('Excel files (*.xls*);;Excel files (*.xlsx)')
             file_dialog.setFileMode(QFileDialog.ExistingFile)
             if file_dialog.exec_():
                 self.table_path = file_dialog.selectedFiles()[0]
-                table = pd.read_excel(self.table_path)
+                if self.table_path.endswith('.xlsx'):
+                    table = pd.read_excel(self.table_path, engine='openpyxl')
+                else:
+                    table = pd.read_excel(self.table_path, engine='xlrd')
                 self.table_text_edit.setText(table.to_string(index=False))
+        except ImportError as e:
+            QMessageBox.critical(self, "Error", f"Failed to load the required library: {e}")
         except Exception as e:
             QMessageBox.critical(self, "Error", f"Failed to load Excel file: {e}")
-
+            
     def generate_text_b(self):
         if not self.text_a_path or not self.table_path:
             QMessageBox.warning(self, "Warning", "Both Text A and Table need to be loaded first.")
