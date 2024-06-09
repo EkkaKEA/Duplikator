@@ -1,10 +1,144 @@
-﻿//
-GetData(status, "Siemens S7-400 (Ethernet)", "XXX_Status2", 1)
-color =  mtrstat2clr(status)
-SetData(color, "Local HMI", "XXX_Color", 1)﻿//
-GetData(status, "Siemens S7-400 (Ethernet)", "XXX_Status2", 1)
-color =  mtrstat2clr(status)
-SetData(color, "Local HMI", "XXX_Color", 1)﻿//
-GetData(status, "Siemens S7-400 (Ethernet)", "XXX_Status2", 1)
-color =  mtrstat2clr(status)
-SetData(color, "Local HMI", "XXX_Color", 1)
+
+
+"SwitchControl" //H1
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 1,
+ Signal      := "H1");
+
+
+
+
+
+"SwitchControl" //H2
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 2,
+ Signal      := "H2");
+
+
+
+
+
+"SwitchControl" //H3
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 3,
+ Signal      := "H3");
+
+
+
+
+
+"SwitchControl" //H4
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 4,
+ Signal      := "H4");
+
+
+
+
+
+"SwitchControl" //H5
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 5,
+ Signal      := "H5");
+
+
+
+
+
+"SwitchControl" //H6
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 6,
+ Signal      := "H6");
+
+
+
+
+
+"SwitchControl" //H7
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 7,
+ Signal      := "H7");
+
+
+
+
+
+"SwitchControl" //HH1
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 8,
+ Signal      := "HH1");
+
+
+
+
+
+"SwitchControl" //HH2
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 9,
+ Signal      := "HH2");
+
+
+
+
+
+"SwitchControl" //HH3
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 10,
+ Signal      := "HH3");
+
+
+
+
+
+"SwitchControl" //HH4
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 11,
+ Signal      := "HH4");
+
+
+
+
+
+"SwitchControl" //HH5
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := 12,
+ Signal      := "HH5");
+
+
+

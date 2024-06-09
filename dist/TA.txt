@@ -1,0 +1,12 @@
+
+
+"SwitchControl" //BBB
+(en_HORN     := TRUE,
+ PULSE       := "1SEC_TRIGGER",
+ Reset_Alarm := "ResetAlarm",
+ Deley_Alarm := 2,
+ NUM         := AAA,
+ Signal      := "BBB");
+
+
+
